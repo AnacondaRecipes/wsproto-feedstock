@@ -17,6 +17,7 @@ requirements:
   host:
     - python
     - pip
+    - wheel
   run:
     - python
     - h11 >=0.9.0,<1.0
@@ -42,7 +43,7 @@ about:
     This repository does not provide a parsing layer, a network layer, or any rules about concurrency.
     Instead, it’s a purely in-memory solution, defined in terms of data actions and WebSocket frames.
     RFC6455 and Compression Extensions for WebSocket via RFC7692 are fully supported.
-  doc_url: https://wsproto.readthedocs.io/en/latest/
+  doc_url: https://wsproto.readthedocs.io/
   dev_url: https://github.com/python-hyper/wsproto
 
 extra:
