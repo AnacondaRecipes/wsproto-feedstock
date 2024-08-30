@@ -25,6 +25,10 @@ requirements:
 test:
   imports:
     - wsproto
+    - wsproto.connection
+    - wsproto.extensions
+    - wsproto.frame_protocol
+    - wsproto.handshake
   commands:
     - pip check
   requires:
